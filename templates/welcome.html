@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+
+body {
+    font-family: 'PrimaryMuscleFont', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("{{ url_for('static', filename='welcome.jpg') }}"); /* Update with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      text-align: center;
+    }
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+      background-color: #ffffff;
+      width: 20%;
+      max-width: 450px; /* Adjust as needed for a wider or narrower card */
+      border-radius: 2rem; /* Rounded corners for a modern look */
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0.1rem 0.1rem;
+}
+
+.logo img {
+    width: 88px;
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+.highlight {
+      color: #9c88ff; /* or any purple shade you prefer */
+    }
+nav ul li a:hover {
+    color: #000000;
+}
+
+/* Page content styles */
+.welcome-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    margin-bottom: 120px;
+    margin-left: 3%;
+    border-radius: 15px;
+    color: #000000;
+}
+
+.welcome-container a {
+    font-size: 1.8em;
+}
+
+.btn-beginner,
+.btn-advanced {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.btn-beginner:hover,
+.btn-advanced:hover {
+    background-color: #0056b3;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='welcome.css') }}">
+    <title>Welcome</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>
+                Nutri<span class="highlight">Smart</span>
+              </h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/welcome">Home</a></li>
+                <li><a href="/beginner">Beginner</a></li>
+                <li><a href="/advanced">Advanced</a></li>
+                <!-- <li><a href="/insight">Insight</a></li> -->
+            </ul>
+        </nav>
+    </header>
+    <div class="welcome-container">
+        <a class="btn-beginner" href="/beginner">Beginner</a>
+        <a class="btn-advanced" href="/advanced">Advanced</a>
+    </div>
+</body>
+
+</html>
