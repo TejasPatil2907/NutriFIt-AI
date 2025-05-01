@@ -2,7 +2,7 @@
 
 
 Overview
-NutriFit-AI is a personalized nutrition and diet tracking application enhanced with a virtual assistant. The app utilizes advanced machine learning algorithms to analyze the user's food intake, including calories, nutrients, and macronutrient ratios, and provides personalized feedback and suggestions on how to improve their diet. The virtual assistant offers additional support by answering questions, offering suggestions, and guiding users through the app's various features.
+NutriFit-AI is a personalized nutrition , diet and workout tracking application . The app utilizes advanced machine learning algorithms to analyze the user's food intake, including calories, nutrients, and macronutrient ratios, and provides personalized feedback and suggestions on how to improve their diet. The virtual assistant offers additional support by answering questions, offering suggestions, and guiding users through the app's various features.
 
 
 🌟 Features
