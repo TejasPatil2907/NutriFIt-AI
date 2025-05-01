@@ -38,13 +38,13 @@ Version Control: Git, GitHub
 
 
   🗓️ Week 1: 🚀 Project Kick-off and Planning
-  Finalized project topic: an AI-powered personalized nutrition assistant.
+   Finalized project topic: an AI-powered personalized nutrition assistant.
   
-  Created a detailed timeline for the 9-week development process.
+   Created a detailed timeline for the 9-week development process.
   
-  Set up the GitHub repo and project structure.
+   Set up the GitHub repo and project structure.
   
-  Installed required tools, libraries, and set up the basic Flask environment.
+   Installed required tools, libraries, and set up the basic Flask environment.
 
   
   
