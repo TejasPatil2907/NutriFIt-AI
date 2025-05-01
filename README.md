@@ -8,8 +8,6 @@ NutriFit-AI is a personalized nutrition and diet tracking application enhanced w
 🌟 Features
 
 Personalized Nutrition Tracking: Monitor daily food intake, calories, nutrients, and macronutrient ratios.
-  
-Virtual Assistant Integration: Interact with a virtual assistant for dietary recommendations and guidance.
 
 User-Friendly Interface: Intuitive design for seamless user experience.
 
