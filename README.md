@@ -106,3 +106,34 @@ Version Control: Git, GitHub
   Integrated profile customization for weight, height, goals, and activity frequency.
 
 
+
+
+
+🔮 Future Enhancements
+We envision NutriFit-AI evolving into a full-spectrum wellness companion. Below are planned enhancements:
+
+🧘 Yoga Recommendation Module
+Add personalized yoga session suggestions based on user needs (e.g., stress relief, flexibility, back pain, pregnancy, etc.).
+
+Integrate beginner-friendly videos, GIFs, and step-by-step guidance.
+
+Offer options for morning routines, bedtime yoga, or quick desk stretches.
+
+Use user stress levels (collected via chatbot) to auto-suggest relaxation poses and breathing exercises.
+
+
+📱 Mobile App Version
+Build a native Android/iOS app using React Native or Flutter for broader accessibility.
+
+Enable push notifications for meal reminders and daily workout goals.
+
+🧠 AI-Driven Smart Assistant 2.0
+Upgrade the chatbot to remember user context and carry on more human-like conversations.
+
+Integrate with GPT-based responses for deeper support.
+
+🗓️ Calendar-Based Progress Tracker
+Visualize meals, workouts, and wellness streaks in a calendar heatmap.
+
+Add achievements and rewards for consistency.
+
