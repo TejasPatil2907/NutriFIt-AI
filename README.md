@@ -6,23 +6,25 @@ NutriFit-AI is a personalized nutrition and diet tracking application enhanced w
 
 
 Features
-       Personalized Nutrition Tracking: Monitor daily food intake, calories, nutrients, and macronutrient ratios.
+
+Personalized Nutrition Tracking: Monitor daily food intake, calories, nutrients, and macronutrient ratios.
   
-      Virtual Assistant Integration: Interact with a virtual assistant for dietary recommendations and guidance.
+Virtual Assistant Integration: Interact with a virtual assistant for dietary recommendations and guidance.
 
-      User-Friendly Interface: Intuitive design for seamless user experience.
+User-Friendly Interface: Intuitive design for seamless user experience.
 
-      Data Visualization: Graphical representation of nutritional data for better understanding.
+Data Visualization: Graphical representation of nutritional data for better understanding.
 
-      Secure Data Handling: Ensures user data privacy and security.
+Secure Data Handling: Ensures user data privacy and security.
 
 Technologies Used
-      Frontend: HTML, CSS, JavaScript
 
-      Backend: Python (Flask)
+Frontend: HTML, CSS, JavaScript
 
-      Database: SQLite
+Backend: Python (Flask)
 
-      Machine Learning: Scikit-learn, Pandas, NumPy
+Database: SQLite
+
+Machine Learning: Scikit-learn, Pandas, NumPy, KNN.
   
-      Version Control: Git, GitHub
+Version Control: Git, GitHub
