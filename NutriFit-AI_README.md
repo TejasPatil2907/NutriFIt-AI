@@ -42,7 +42,6 @@ It empowers users to take control of their fitness journey by analyzing food int
 | Backend      | Python (Flask)                          |
 | Database     | SQLite                                  |
 | Machine Learning | Scikit-learn, Pandas, NumPy (KNN Model) |
-| Assistant    | Dialogflow API                          |
 | Versioning   | Git & GitHub                            |
 
 ---
