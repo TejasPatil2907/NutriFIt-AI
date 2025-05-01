@@ -35,6 +35,8 @@ Version Control: Git, GitHub
 🗓️ Week-by-Week Progress Report 🗓️
 
 
+
+
   🗓️ Week 1: 🚀 Project Kick-off and Planning
   Finalized project topic: an AI-powered personalized nutrition assistant.
   
@@ -43,6 +45,8 @@ Version Control: Git, GitHub
   Set up the GitHub repo and project structure.
   
   Installed required tools, libraries, and set up the basic Flask environment.
+
+  
   
   🗓️ Week 2: 🎨 Frontend Foundation
   Designed and implemented the homepage and main dashboard UI using HTML/CSS/JS.
@@ -52,6 +56,8 @@ Version Control: Git, GitHub
   Added navigation bars, login/signup forms, and user input fields.
   
   Established frontend-backend communication for future API calls.
+
+
   
   🗓️ Week 3: 🔧 Backend Integration & User Auth
   Developed Flask routes for user login, registration, and dashboard.
@@ -61,6 +67,8 @@ Version Control: Git, GitHub
   Implemented input validation and session-based login handling.
   
   Built APIs for saving and fetching user profile data.
+
+
   
   🗓️ Week 4: 🧮 Nutrition Logging & Meal Analysis
   Developed a module to let users enter meals or food items manually.
@@ -71,6 +79,8 @@ Version Control: Git, GitHub
   
   Laid the foundation for ML-based recommendation logic.
 
+
+
   🗓️ Week 5: 🤖 ML-Powered Recommendation System
   Built machine learning models (KNN, Decision Trees) to classify dietary needs.
   
@@ -79,6 +89,8 @@ Version Control: Git, GitHub
   Generated personalized meal plans using prediction results.
   
   Integrated ML output into the frontend for real-time suggestion display.
+
+
 
   🗓️ Week 6: 🏋️ Fitness Module & Personalization
   Added Workout Recommendation Module:
