@@ -1,0 +1,80 @@
+🛠️ Implementation Phase II:  NutriFit.AI
+📌 Step 1: Data Preprocessing & Feature Engineering
+To build a dual-recommendation system for meals and workouts, we first cleaned and transformed the data to ensure consistency and suitability for machine learning.
+
+✅ Handling Missing Values
+Categorical Data → Replaced using the most frequent value (Mode).
+
+Numerical Data → Imputed with Mean to avoid bias in predictions.
+
+✅ Feature Engineering
+BMI Calculation → Derived from user height and weight; categorized into:
+
+Underweight, Normal, Overweight, Obese.
+
+Condition Flags → Encoded chronic conditions like Diabetes, Heart Disease, Pregnancy.
+
+Activity Score → Mapped sedentary/moderate/active to a numerical value.
+
+Goal Setting → Users' health goals (e.g., weight loss, muscle gain, general fitness) were converted into machine-readable labels.
+
+✅ Feature Encoding
+Applied One-Hot Encoding for categorical attributes:
+
+Meal type, Workout type, Health conditions, Goals.
+
+✅ Feature Scaling
+Used StandardScaler() to normalize calorie values, duration (minutes), intensity, and BMI.
+
+✅ Data Splitting
+80% training and 20% test set for both meal and workout recommendation modules.
+
+📌 Step 2: Model Training for Meal and Workout Recommendations
+We developed two parallel machine learning pipelines—one for meal recommendations and one for workout suggestions.
+
+🍽️ Meal Recommendation Engine (KNN Classifier)
+Inputs: BMI, age, health condition, dietary preference, activity level.
+
+Output: Suggested meal with nutrition breakdown and Recommending workouts for the user needs and body structure.
+
+Model for Meal Planning: K-Nearest Neighbors (K=5) — chosen for personalized, non-parametric classification.
+
+Model for Workout Recommendation : Content Based Filtering.
+
+Accuracy: 89.7%
+
+Great performance in condition-specific filtering (e.g., diabetic-safe meals).
+
+🏋️ Workout Recommendation Engine (Multi-Class Classifier)
+Inputs: User goal (e.g., weight loss, muscle gain), activity level, BMI category.
+
+Output: Recommended workout with images guidence
+
+
+📌 Step 3: Integration with Flask Web UI
+Both models were integrated into the FLask app for a seamless user experience.
+
+✅ Features Implemented:
+User Health Input Form
+
+Age, weight, height, activity level, dietary preference, condition, goal.
+
+Dual Recommendation Output
+
+🍱 Meals: Personalized recommendations with calorie/macronutrient breakdown.
+
+🏃 Workouts: Suggested activity, duration, and target benefit (e.g., fat burn, flexibility).
+
+Condition-aware Filtering
+
+Specific logic for diabetes, heart issues, pregnancy-safe suggestions.
+
+Health Tips & Visual Analytics
+
+Graphs showing calorie distribution, BMI progress, weekly workout plan.
+
+📌 Final Outcome of Phase II
+✅ Dual AI Recommendation Engine implemented for Meals and Workouts.
+✅ Personalized and condition-based suggestions enhanced user relevance.
+✅ KNN (meals) frontend for real-time results.
+✅ Foundation laid for Yoga routines and stress tracking in Phase III.
