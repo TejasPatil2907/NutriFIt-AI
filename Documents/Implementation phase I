@@ -1,0 +1,67 @@
+1. Data Collection
+Collected datasets from publicly available sources, including:
+
+Food.com Recipe and Nutrition Dataset for ingredients and calorie data.
+
+Archana’s Kitchen IndianFood Dataset for region-specific Indian meal recipes.
+
+WHO and USDA dietary guidelines for age- and condition-specific nutritional needs.
+
+User input data included:
+✅ Age, gender, height, weight, and activity level
+✅ Dietary preference (veg/non-veg/vegan)
+✅ Specific health conditions (e.g., diabetes, pregnancy, heart disease)
+✅ Stress level responses for chatbot analysis
+
+2. Exploratory Data Analysis (EDA)
+A. Data Cleaning & Preprocessing
+Removed missing or inconsistent entries in recipe ingredients and nutrition fields.
+
+Standardized units (e.g., calories per serving, grams of protein/fat/carbs).
+
+Calculated BMI using weight and height and categorized users into:
+✅ Underweight
+✅ Normal
+✅ Overweight
+✅ Obese
+
+Grouped foods by nutritional category and suitability for specific health conditions.
+
+B. Statistical Analysis & Insights
+Assessed average nutritional values across different meals (breakfast, lunch, dinner).
+
+Analyzed ingredient frequency to recommend commonly available and healthy options.
+
+Compared nutritional needs across different user profiles (age groups, conditions).
+
+Identified the caloric balance between energy intake and activity level.
+
+C. Data Visualization (Matplotlib & Seaborn)
+Generated:
+✅ Bar plots showing macronutrient distribution by meal type
+✅ Heatmaps highlighting correlations between user BMI and calorie requirements
+✅ Pie charts of dietary categories (vegetarian, non-vegetarian, condition-specific meals)
+
+3. Dashboard Creation in Power BI
+Built an interactive Power BI dashboard for nutrition and wellness analysis.
+
+Key features included:
+✅ User-wise nutrition breakdown (calories, protein, carbs, fat)
+✅ Line graphs showing user progress over days/weeks
+✅ Comparison of daily meal plans and nutritional targets
+✅ Interactive filters to analyze data by user type or health condition
+✅ Visualization of stress chatbot inputs (mood trends over time)
+
+4. Key Insights from EDA & Dashboard
+📌 Users with sedentary lifestyles require 20–30% fewer calories than active individuals.
+📌 Diabetic users need low-sugar, high-fiber meals; vegetarian diets work well.
+📌 Pregnancy-based nutrition planning requires higher iron, calcium, and calorie intake.
+📌 Plant-based meals are consistently lower in saturated fats and higher in fiber.
+📌 Stress patterns, identified via the chatbot, often correlate with meal skipping and poor hydration.
+
+5. Outcome of Phase 1
+✅ Structured and cleaned nutrition datasets ready for ML integration.
+✅ Extracted essential features for personalized meal and activity planning.
+✅ Developed initial version of Power BI dashboard for nutrition analytics.
+✅ Validated dataset and labels for specific user types (e.g., diabetic-friendly meals).
+✅ Prepared user input schema for integration into the NutriFit AI planner interface.
